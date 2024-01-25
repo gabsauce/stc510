@@ -54,10 +54,25 @@ git version 2.39.2 (Apple Git-143)
 bash-3.2$ git clone https://github.com/gabsauce/stc510.git
 Cloning into 'stc510'...
 remote: Enumerating objects: 5, done.[K
-remote: Counting objects:  20% (1/5)[Kremote: Counting objects:  40% (2/5)[Kremote: Counting objects:  60% (3/5)[Kremote: Counting objects:  80% (4/5)[Kremote: Counting objects: 100% (5/5)[Kremote: Counting objects: 100% (5/5), done.[K
-remote: Compressing objects:  20% (1/5)[Kremote: Compressing objects:  40% (2/5)[Kremote: Compressing objects:  60% (3/5)[Kremote: Compressing objects:  80% (4/5)[Kremote: Compressing objects: 100% (5/5)[Kremote: Compressing objects: 100% (5/5), done.[K
+remote: Counting objects:  20% (1/5)[K
+remote: Counting objects:  40% (2/5)[K
+remote: Counting objects:  60% (3/5)[K
+remote: Counting objects:  80% (4/5)[K
+remote: Counting objects: 100% (5/5)[K
+remote: Counting objects: 100% (5/5), done.[K
+remote: Compressing objects:  20% (1/5)[K
+remote: Compressing objects:  40% (2/5)[K
+remote: Compressing objects:  60% (3/5)[K
+remote: Compressing objects:  80% (4/5)[K
+remote: Compressing objects: 100% (5/5)[K
+remote: Compressing objects: 100% (5/5), done.[K
 remote: Total 5 (delta 0), reused 0 (delta 0), pack-reused 0[K
-Receiving objects:  20% (1/5)Receiving objects:  40% (2/5)Receiving objects:  60% (3/5)Receiving objects:  80% (4/5)Receiving objects: 100% (5/5)Receiving objects: 100% (5/5), 5.17 KiB | 5.17 MiB/s, done.
+Receiving objects:  20% (1/5)
+Receiving objects:  40% (2/5)
+Receiving objects:  60% (3/5)
+Receiving objects:  80% (4/5)
+Receiving objects: 100% (5/5)
+Receiving objects: 100% (5/5), 5.17 KiB | 5.17 MiB/s, done.
 bash-3.2$ cd stc510
 bash-3.2$ ls -1
 LICENSE
@@ -106,4 +121,17 @@ Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
 	[32mnew file:   new.txt[m
 
-bash-3.2$ 
+bash-3.2$ git push
+Username for 'https://github.com': gabsauce
+Password for 'https://gabsauce@github.com': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 2.58 KiB | 2.58 MiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/gabsauce/stc510.git
+   1d35609..ac09593  main -> main
+
+bash-3.2$
